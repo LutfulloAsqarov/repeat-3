@@ -1,0 +1,130 @@
+.aboutplan {
+  width: 100%;
+  background: #eff7f2;
+  padding: 150px 0 100px;
+}
+.aboutplan__cards {
+  padding-left: 96px;
+  padding-top: 140px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 96px;
+}
+.aboutplan__cards__card {
+  width: calc(50% - 48px);
+}
+.aboutplan__cards__card__name {
+  padding-bottom: 16px;
+  font-size: 16px;
+  line-height: 18px;
+  font-weight: 700;
+  color: var(--primaryText);
+}
+
+.aboutplan__cards__card__title {
+  max-width: 496px;
+  padding-bottom: 8px;
+  font-size: 28px;
+  line-height: 42px;
+  color: var(--primaryText);
+  font-weight: 700;
+}
+
+.about__bottom {
+  padding-top: 30px;
+}
+
+.about__bottom__title {
+  font-size: 16px;
+  color: var(--primaryText);
+  line-height: 18px;
+  font-weight: 500;
+}
+.about__bottom__supportes {
+  padding-bottom: 32px;
+  gap: 10px;
+}
+
+.about__bottom__supportes .line {
+  flex-grow: 1;
+  height: 2px;
+  background: var(--borderColor);
+}
+
+.about__bottom__supportes__logos {
+  width: 100%;
+  padding-bottom: 32px;
+  gap: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+}
+
+.about__bottom__supportes__logos img {
+  width: calc(16.6% - 16.6px);
+}
+@media (max-width: 1250px) {
+  .aboutplan {
+    padding: 120px 0 100px;
+  }
+}
+@media (max-width: 1100px) {
+  .aboutplan {
+    padding: 75px 0 100px;
+  }
+
+  .aboutplan__cards__card__name {
+    font-size: 14px;
+    line-height: 15px;
+  }
+
+  .aboutplan__cards__card__title {
+    font-size: 24px;
+    line-height: 35px;
+  }
+
+  .about__bottom__supportes__logos {
+    flex-wrap: wrap;
+  }
+  .about__bottom__supportes__logos img {
+    width: calc(25% - 25px);
+  }
+}
+@media (max-width: 950px) {
+  .aboutplan__cards__card__title {
+    font-size: 20px;
+    line-height: 25px;
+  }
+  .aboutplan__cards {
+    padding-left: 0;
+  }
+  .aboutplan__cards__card__desc {
+    font-size: 14px;
+  }
+}
+@media (max-width: 750px) {
+  .aboutplan__cards {
+    padding-top: 60px;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .aboutplan__cards__card {
+    width: calc(100%);
+  }
+  .about__bottom__supportes__logos img {
+    width: calc(33.3% - 15px);
+  }
+}
+
+@media (max-width: 400px) {
+  .aboutplan__cards__card__title {
+    font-size: 16px;
+    line-height: 20px;
+  }
+  .about__bottom__supportes__logos img {
+    width: calc(50% - 10px);
+  }
+  .aboutplan {
+    padding-bottom: 40px;
+  }
+}

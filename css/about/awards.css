@@ -1,0 +1,181 @@
+.awards {
+  padding: 100px 0;
+  text-align: center;
+}
+
+.awards__cards {
+  padding: 50px 0px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 50px;
+}
+
+.awards__cards__card {
+  width: calc(25% - 37.5px);
+}
+
+.recognition__cards__card__year {
+  font-size: 24px;
+  line-height: 38px;
+  color: var(--primaryText);
+  font-weight: 700;
+}
+.recognition__cards__card__title {
+  padding: 5px 0;
+  font-size: 16px;
+  line-height: 25px;
+  color: var(--primaryText);
+  font-weight: 700;
+}
+.recognition__cards__card__desc {
+  font-size: 12px;
+  line-height: 20px;
+  font-weight: 700;
+}
+
+.journey {
+  text-align: start;
+  background: black;
+  padding: 60px 0px 60px 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 50px;
+  border-radius: 12px;
+}
+.journey__left,
+.journey__right {
+  width: calc(50% - 25px);
+}
+
+.journey__left__name {
+  font-size: 16px;
+  line-height: 18px;
+  font-weight: 700;
+  color: var(--whiteColor);
+}
+.journey__left__title {
+  padding: 16px 0;
+  font-size: 48px;
+  line-height: 56px;
+  font-weight: 700;
+  color: var(--whiteColor);
+}
+
+.journey__left__desc {
+  padding-bottom: 32px;
+  line-height: 25px;
+  font-weight: 400;
+  color: var(--whiteColor);
+  opacity: 0.6;
+}
+
+.journey__cards {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 30px;
+}
+
+.journey__cards__card {
+  width: calc(33.3% - 20px);
+}
+
+.journey__cards__card__price {
+  font-size: 24px;
+  line-height: 38px;
+  font-weight: 500;
+  color: var(--whiteColor);
+}
+
+.journey__right img {
+  width: 100%;
+}
+
+@media (max-width: 1085px) {
+  .journey__left__name {
+    font-size: 14px;
+    line-height: 18px;
+  }
+  .journey__left__title {
+    font-size: 35px;
+    line-height: 40px;
+  }
+
+  .journey__left__desc {
+    line-height: 20px;
+  }
+  .journey__cards__card__price {
+    font-size: 20px;
+    line-height: 25px;
+  }
+  .journey__cards__card__desc {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 950px) {
+  .journey__left,
+  .journey__right {
+    width: 90%;
+  }
+  .journey__right img {
+    width: 100%;
+    border-radius: 20px;
+  }
+  .journey {
+    padding-right: 60px;
+  }
+}
+@media (max-width: 720px) {
+  .awards__cards__card {
+    width: calc(50% - 25px);
+  }
+}
+
+@media (max-width: 600px) {
+  .journey__left__title {
+    font-size: 28px;
+    line-height: 30px;
+  }
+
+  .journey__left__desc {
+    font-size: 14px;
+    line-height: 18px;
+  }
+  .journey__cards__card__price {
+    font-size: 16px;
+    line-height: 18px;
+  }
+  .journey__cards__card__desc {
+    font-size: 12px;
+  }
+  .journey {
+    padding: 15px;
+  }
+  .journey__left,
+  .journey__right {
+    width: 100%;
+  }
+}
+
+@media (max-width: 400px) {
+  .journey__left__title {
+    font-size: 20px;
+    line-height: 35px;
+  }
+
+  .journey__left__desc {
+    font-size: 14px;
+    line-height: 14px;
+  }
+  .journey__cards__card__price {
+    font-size: 14px;
+    line-height: 14px;
+  }
+  .awards__cards__card {
+    width: 90%;
+  }
+}
