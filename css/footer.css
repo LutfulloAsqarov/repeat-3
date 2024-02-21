@@ -69,6 +69,11 @@ footer {
     width: calc(40% - 70px);
 }
 
+ .footer__btn:hover {
+        color: var(--whiteColor);
+        background: var(--greenPrimary);
+}
+
 @media (max-width: 1170px) {
     .footer__container {
         flex-wrap: wrap;
@@ -130,6 +135,7 @@ footer {
         font-size: 14px;
         background: white;
     }
+
     .footer__form input {
         width: 70%;
         border: 1px solid #ebf0f94d;
