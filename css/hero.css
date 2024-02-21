@@ -1,9 +1,10 @@
-main {
+/* main {
   padding-top: 80px;
-}
+} */
 .hero {
   background: url(../images/hero/hero__back.svg) no-repeat center;
   background-size: cover;
+  padding-top: 80px;
 }
 
 .hero__top {
