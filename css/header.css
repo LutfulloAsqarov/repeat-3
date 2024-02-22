@@ -124,13 +124,6 @@ body {
     background: var(--greenPrimary);
 }
 
-/* .header__nav__right__btns__dark-mode {
-  border: none;
-  background: transparent;
-  color: var(--darkModeColor);
-  font-size: 18px;
-} */
-
 .header__nav__right__btns__dark-mode .fa-sun {
     display: none;
 }
@@ -150,7 +143,7 @@ body {
         left: -100%;
         width: 50%;
         height: 100vh;
-        background-color: var(--greenPrimary);
+        background-color: var(--whiteColor);
         flex-direction: column;
         justify-content: center;
         gap: 20px;
